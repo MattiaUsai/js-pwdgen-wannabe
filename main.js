@@ -2,7 +2,8 @@
 const userName = prompt("Inserisci il tuo nome");
 const userLastname = prompt("Inserisci il tuo cognome");
 const userFavoriteColor = prompt("Inserisci il tuo colore preferito");
-const userNumber =21;
+// variabile che contiene un generatore di numeri casuali tra 1 e 100 
+const userNumber = Math.round(Math.random() * 100)
 // variabile per richiamare ID HTML 
 
 
