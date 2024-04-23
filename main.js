@@ -10,7 +10,7 @@ const userNumber = Math.round(Math.random() * 100)
 let currentElement = document.getElementById("informazioni");
 let currentText = currentElement.innerHTML;
 // concatenazione stringhe 
-currentText = `${currentText} ${userName} ${userLastname} ${userFavoriteColor} ${userNumber}`;
+currentText = `${currentText}${userName}${userLastname}${userFavoriteColor}${userNumber}`;
 
 // scrivo nella console
 console.log(currentText);
